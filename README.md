@@ -1,4 +1,10 @@
+# Description
+This project contains 2 web projects which result in a simple server which serves a background image of a dish.
+Both have Dockerfiles included for providing a container version of this. Those containers might be useful to just identify different containers while serving different images in the webbrowser.
 
+The project is used to get to know different ways of serving:
+- dish-bolo: Python/Flask server
+- dish-schnipo: NodeJS/Express server
 
 # Resources
 - Dockerizing NodeJS Express https://nodejs.org/en/docs/guides/nodejs-docker-webapp/

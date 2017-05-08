@@ -8,6 +8,13 @@ The project is used to get to know different ways of serving:
 
 Both projects listen to http-requests on port 8080.
 
+## Starting
+Show Bolognese:
+    docker run -d bschnorbus/dish-bolo -p 8090:8080
+    
+Show SchniPo:
+    docker run -d bschnorbus/dish-schnipo -p 8080:8080
+
 # Resources
 - Dockerizing NodeJS Express https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 - Python Flask App - https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
